@@ -78,6 +78,7 @@
                         <nohelp>true</nohelp>
                     </configuration>
                 </plugin>
+		    <!--
 		    <plugin>
    <artifactId>maven-deploy-plugin</artifactId>
    <version>2.8.1</version>
@@ -91,6 +92,7 @@
       </execution>
    </executions>
 </plugin>
+-->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
