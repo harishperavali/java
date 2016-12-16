@@ -30,7 +30,11 @@
         </developer>
     </developers>
     <distributionManagement>
-    
+    <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+       <url>http://localhost:8050/repository/maven-releases/</url>
+        </repository>
 
      <snapshotRepository>
       <id>snapshots</id>
